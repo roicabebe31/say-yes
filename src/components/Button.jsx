@@ -6,8 +6,8 @@ const Button = ({ text, className, onClick, style }) => {
       <div className="button-container">
         <button
           className={`custom-button ${className}`}
-          onClick={onClick} // Handle button clicks
-          style={style} // Dynamically apply styles, like scaling
+          onClick={onClick}
+          style={style}
         >
           {text}
         </button>
