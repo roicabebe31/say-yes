@@ -3,7 +3,6 @@ import photos from "../assets/images"; // Import the images index
 
 const RandomPopup = () => {
   const [visibleImages, setVisibleImages] = useState([]); // Array of currently visible images
-
   // Function to show multiple random images
   const showRandomImages = () => {
     const newImages = [];
