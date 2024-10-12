@@ -1,0 +1,15 @@
+:root {
+  background-color: #F9F6EE;
+  color: #422800;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+

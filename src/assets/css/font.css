@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Arciform';
+    src: url('/src/assets/fonts/Arciform.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Mightype';
+    src: url('/src/assets/fonts/Mightype-Script.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "TheSecret";
+    src: url('/src/assets/fonts/TheSecret-Regular.ttf') format("truetype");
+}
+
+.normal {
+    font-family: "Arciform", sans-serif;
+}
+  
+.headline {
+    font-family: "Mightype", sans-serif;
+    margin: 0rem 0rem 3rem;;
+}
+  
+.headline2 {
+    font-family: "TheSecret", sans-serif;
+}
+
+h1 {
+    font-family: "Mightype", sans-serif;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+  
+
